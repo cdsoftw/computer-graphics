@@ -1,0 +1,37 @@
+<!--
+=============================================================================================
+ Name        :  prog3_Dapprich.html
+ Author      :  Cole Dapprich
+ Version     :  1.0
+ Course      :  CSCE 4230.001
+ Description :  This html driver, in collaboration with prog3_Dapprich.js, uses WebGL to draw
+				a variety of rotating objects within a browser. Built using prog2_Dapprich
+				and Matsuda's RotatingTriangle_withButtons as a template.
+ Copyright   :  © 2017 CDSoftworks ( AMDG )
+=============================================================================================
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Program 3: Dapprich</title>
+  </head>
+
+  <body onload="main()">
+    <canvas id="webgl" width="500" height="500">
+    Please use a browser that supports "canvas"
+    </canvas>
+    <p>
+      <button type="button" onclick="start_stop()">ON/OFF</button>
+      <button type="button" onclick="slow()">SLOW</button>
+	  <button type="button" onclick="med()">MEDIUM</button>
+	  <button type="button" onclick="fast()">FAST</button>
+    </p>
+    <script src="../matsuda/lib/webgl-utils.js"></script>
+    <script src="../matsuda/lib/webgl-debug.js"></script>
+    <script src="../matsuda/lib/cuon-utils.js"></script>
+    <script src="../matsuda/lib/cuon-matrix.js"></script>
+    <script src="prog3_Dapprich.js"></script>
+  </body>
+</html>

@@ -1,0 +1,31 @@
+<!--
+=============================================================================================
+ Name        :  prog4_Dapprich.html
+ Author      :  Cole Dapprich
+ Version     :  1.0
+ Course      :  CSCE 4230.001
+ Description :  This html driver, in collaboration with prog4_Dapprich.js, uses WebGL to draw
+                a graph of a bivariate function within a browser. Built using Matsuda's
+                LightedCube_animation as a template.
+ Copyright   :  © 2017 CDSoftworks ( AMDG )
+=============================================================================================
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Program 4 - Dapprich</title>
+  </head>
+
+  <body onload="main()">
+    <canvas id="webgl" width="400" height="400">
+    Please use a browser that supports "canvas"
+    </canvas>
+	<script src="../matsuda/lib/webgl-utils.js"></script>
+    <script src="../matsuda/lib/webgl-debug.js"></script>
+    <script src="../matsuda/lib/cuon-utils.js"></script>
+    <script src="../matsuda/lib/cuon-matrix.js"></script>
+    <script src="prog4_Dapprich.js"></script>
+  </body>
+</html>
